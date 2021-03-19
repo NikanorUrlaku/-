@@ -1,0 +1,343 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 700;
+  }
+  body,
+html {
+  overflow-x: hidden;
+  width: 1440px;
+}
+.VerhChact{
+    background-image: url(FON1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 788px;
+}
+.header {
+  width: 1440px;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header.red{
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: 1s;
+}
+
+/* Nav */
+.nav {
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#checkbox-menu,
+.toogle {
+  display: none;
+}
+ul{
+  list-style-type: none;
+}
+/* Section 
+nav {
+  width: 100%;
+  position: relative;
+  animation-duration: 1s;
+  animation-delay: 0.1s;
+  animation-iteration-count: 1;
+  animation-name: dvijShapki;
+}
+
+
+.menu {
+  padding: 0;
+  margin-left: 50px;
+  margin-right: 75px;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+  align-items: center;
+  position: fixed;
+  list-style-type: none;
+}
+li{
+  text-align: center;
+  
+}
+.menu li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  align-self: flex-end;
+  font-size: 18px;  
+  transition: background 0.2s linear;
+  
+}*/
+
+.square1{ flex:8; text-align: left;;}
+.square2{ flex:4;}
+.square3{ flex:4;}
+.square4{ flex:4;}
+.square5{ flex:4;}
+.square6{ flex:1;}
+.square7{ flex:1;}
+.fas{
+font-size: 33px;
+}
+.fa-phone-alt{
+  padding-top: 10px;
+}
+.fa-phone-alt::after{
+  content: " ";
+background: #fff;
+width: 1px;
+height: 44px;
+float: right;
+margin-left: 100px;
+margin-top: -34px;
+}
+.slogan{
+  margin-left: 50px;
+  padding-top: 195px;
+  width: 1110px;
+  height: 500px;
+  position: relative;
+  animation-duration: 1s;
+  animation-delay: 0.1s;
+  animation-iteration-count: 1;
+  animation-name: dvijSlogana;
+}
+.slogan .verh{
+  font-size: 48px;
+  font-weight: 700;
+}
+.slogan .niz{
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 25px;
+}
+.btn1{
+  margin-top: 30px;
+  color: black;
+  font-size: 18px;
+  font-weight: 800;
+  width: 249px;
+  height: 72px;
+  opacity: 0.9;
+  border-radius: 8px;
+}
+.raboty{
+  float:right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+  align-items: center;
+  width: 866px;
+  height: 285px;
+  margin-top: -160px;
+  margin-right: -146px;
+  position: relative;
+  animation-duration: 1s;
+  animation-delay: 0.1s;
+  animation-iteration-count: 1;
+  animation-name: dvijInteryera;
+}
+.interyer1{
+  background: url(interyer1.png);
+  width: 278px;
+  height: 288px;
+  transition: 1s;
+}
+.interyer1:hover{
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.interyer2{
+  background: url(interyer2.png);
+  width: 278px;
+  height: 288px;
+  transition: 1s;
+}
+.interyer2:hover{
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.interyer3{
+  background: url(interyer3.png);
+  width: 278px;
+  height: 288px;
+  transition: 1s;
+}
+.interyer3:hover{
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.dvij-left, .dvij-right{
+  background: #fff;
+  width: 57px;
+  height: 57px;
+  border: none;
+  opacity: 0.8;
+  margin-top: 96px;
+}
+.dvij-left{
+  padding-right: 7px;
+  margin-left: 16px;
+}
+.dvij-right{
+  padding-left: 7px;
+  margin-left: 52px;
+}
+.fa-caret-left, .fa-caret-right{
+  font-size: 50px;
+  color: #000;
+}
+.seredina{
+  background: #000;
+}
+.interyer4{
+  margin-top: -87px;
+  margin-left: 50px;
+}
+.text-serediny{
+width: 540px; 
+height: auto;
+float:right;
+margin-top: -650px;
+margin-right: 70px;
+}
+.zagolovok-serediny{
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.soderjimoe-serediny{
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.portfolio{
+  text-align: center;
+  font-size: 36px;
+  margin-top: 188px;
+}
+.interyer-serediny{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
+.interyer-serediny1{
+  background: url(interyer-serediny1.png);
+  height: 589px;
+  width: 98%;
+  
+}
+.interyer-serediny2{
+  background: url(interyer-serediny2.png);
+  height: 589px;
+  width: 98%;
+  margin-left: 16px;
+}
+.interyer-serediny3{
+  background: url(interyer-serediny3.png);
+  height: 589px;
+  width: 98%;
+  margin-left: 16px;
+}
+.interyer-serediny4{
+  background: url(interyer-serediny4.png);
+  height: 589px;
+  width: 98%;
+  margin-left: 16px;
+}
+
+
+
+
+
+
+
+
+@keyframes dvijShapki{
+  0% {top: -30px;}
+  10% {top: -27px;}
+  20% {top: -24px;}
+  30% {top: -21px;}
+  40% {top: -18px;}
+  50% {top: -15px;}
+  60% {top: -12px;}
+  70% {top: -9px;}
+  80% {top: -6px;}
+  90% {top: -3px;}
+  100% {top: 0px;}
+}
+@keyframes dvijSlogana{
+  0% {left: -100px;}
+  10% {left: -90px;}
+  20% {left: -80px;}
+  30% {left: -70px;}
+  40% {left: -60px;}
+  50% {left: -50px;}
+  60% {left: -40px;}
+  70% {left: -30px;}
+  80% {left: -20px;}
+  90% {left: -10px;}
+  100% {left: 0px;}
+}
+
+ul>li>navedenie-na-shapku{
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+}
+ul>li>navedenie-na-shapku:before,
+ul>li>navedenie-na-shapku:after{
+  content: '';
+  position: absolute; top: 100%;
+  width: 0%;
+  height: 3px;
+  background: white;
+  transition: .3s;
+}
+ul>li>navedenie-na-shapku:before{
+   left: 50%;    
+}
+ul>li>navedenie-na-shapku:after{
+  right: 50%;    
+}
+ul>li>navedenie-na-shapku:hover:before,
+ul>li>navedenie-na-shapku:hover:after{    
+  width: 30%;    
+}
+@keyframes dvijInteryera{
+  0% {bottom:-100px;}
+  10% {bottom: -90px;}
+  20% {bottom: -80px;}
+  30% {bottom: -70px;}
+  40% {bottom: -60px;}
+  50% {bottom: -50px;}
+  60% {bottom: -40px;}
+  70% {bottom: -30px;}
+  80% {bottom: -20px;}
+  90% {bottom: -10px;}
+  100% {bottom: 0px;}
+}
+
