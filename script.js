@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded",checkScroll);
 function checkScroll() {
     let scrollPoz = window.scrollY;
     if(scrollPoz > 0){
-        header.classList.add('red')
+        header.classList.add('zakreplenje')
     } else {
-        header.classList.remove('red')
+        header.classList.remove('zakreplenje')
     }
 };
