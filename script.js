@@ -12,3 +12,8 @@ function checkScroll() {
         header.classList.remove('zakreplenje')
     }
 };
+$(document).ready(function(){
+    $('.slider').slick({
+        slidesToShow:3,
+    });
+});
